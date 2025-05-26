@@ -20,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" >
     
     <link rel="icon" href="https://cdn.glitch.global/ffaa90aa-771d-4d01-a5ef-c08e4bd19395/tree_icon.png" >
-    <link rel="manifest" href="/manifest.json" >
+    <link rel="manifest" href="manifest.json" >
 
     <!--
       This is the page head - it contains info the browser uses
@@ -30,13 +30,13 @@
     <title>Tree-ID!</title>
 
     <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" >
+    <link rel="stylesheet" href="style.css" >
 
     <!-- The website JavaScript file -->
     <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.2.0/dist/confetti.browser.min.js"></script>
-    <script src="/script.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
   
   <body>
@@ -105,7 +105,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
           navigator.serviceWorker
-            .register("/serviceWorker.js")
+            .register("serviceWorker.js")
             .then(res => console.log("service worker registered"))
             .catch(err => console.log("service worker not registered", err))
         })
