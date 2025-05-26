@@ -2,10 +2,10 @@ const staticDev = "treeid"
 const service_worker_version = "v1.041"
 const assets = [
   "/",
-  "/index.html",
-  "/style.css",
-  "/trees.txt",
-  "/script.js"
+  "index.html",
+  "style.css",
+  "trees.txt",
+  "script.js"
 ]
 
 self.addEventListener("install", installEvent => {
