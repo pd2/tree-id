@@ -35,7 +35,7 @@ const app = new Vue({
     gameOver: false }),
 
   mounted() {
-    fetch('/trees.txt').
+    fetch('trees.txt').
     then(response => response.json()).
     then(fetchedTrees => {
       fetchedTrees = fetchedTrees.filter(tree => tree.name.length <= maxLength); // Get rid of any quotes that are too long
