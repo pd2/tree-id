@@ -220,7 +220,7 @@ let copyText;
 
 function ShareIt() {
   
-  let linkURL = "https://pd2.github.io/tree-id/";
+  let linkURL = window.location.href;
   
   copyText = `#Tree-man I learnt to identify ${app.name} tree in ${Math.round(elapsedTime/1000)} sec at ${linkURL}`;
   
