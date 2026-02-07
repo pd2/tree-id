@@ -1,5 +1,5 @@
 const staticDev = "treeid"
-const service_worker_version = "v1.041"
+const service_worker_version = "v1.1"
 const assets = [
   "/",
   "index.html",
