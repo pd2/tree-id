@@ -26,7 +26,7 @@ const app = new Vue({
     name: '', //Filled by the mounted hook
     scientific: '',
     lead: '',
-    path:'https://cdn.glitch.global/ffaa90aa-771d-4d01-a5ef-c08e4bd19395/',
+    path:'assets/',
     file: '',
     guesses: [],
     strikes: [...defaultStrikes],
