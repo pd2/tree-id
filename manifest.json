@@ -4,7 +4,7 @@
   "start_url": "https://pd2.github.io/tree-id/",
   "icons": [
     {
-      "src": "https://cdn.glitch.global/ffaa90aa-771d-4d01-a5ef-c08e4bd19395/tree_icon.png",
+      "src": "assets/tree_icon.png",
       "sizes": "256x256",
       "type": "image/png"
     }
